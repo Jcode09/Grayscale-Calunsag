@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Editor</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="title">
+    <h1>IMAGE EDITOR</h1>
+</div>
+<label for="fileInput">Choose an image</label>
+<input type="file" id="fileInput">    
+<button id="convertBtn">Convert to Grayscale</button>
+<div id="editor-container">
+  <div id="images-container">
+    <div id="original-container">
+      <h2>Original Image</h2>
+      <img id="original-img" src="#" alt="Original Image">
+    </div>
+    <div id="grayscale-container">
+      <h2>Grayscale Image</h2>
+      <img id="grayscale-img" src="#" alt="Grayscale Image">
+    </div>
+  </div>
+</div>
+<script src="testing.js"></script>
+</body>
+</html>
